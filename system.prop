@@ -1,0 +1,27 @@
+# Samsung Specific Properties
+ro.config.rm_preload_enabled=1
+ro.product_ship=true
+ro.build.characteristics=nosdcard
+
+#Cmc properties
+ro.cmc.device_type=pd
+ro.cmc.version=2.0
+
+#Netflix custom property
+ro.netflix.bsp_rev=Q845-05000-1
+
+#Status of softsim
+persist.sys.softsim.status=default,default
+persist.sys.softsim.netmode=4g
+persist.sys.softsim.type=default
+
+#Phone early start enable flag
+sys.config.phone_start_early=true
+
+#
+# ADDITIONAL_BUILD_PROPERTIES
+#
+ro.treble.enabled=true
+ro.config.ifaaversion=2
+ro.vendor.qti.va_aosp.support=1
+
