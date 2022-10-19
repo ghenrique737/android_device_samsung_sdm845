@@ -1,0 +1,37 @@
+# Adoptable Storage
+ro.crypto.volume.options=aes-256-xts
+
+# AUDIO
+audio.offload.min.duration.secs=30
+aaudio.mmap_policy=2
+aaudio.mmap_exclusive_policy=2
+aaudio.hw_burst_min_usec=2000
+af.fast_track_multiplier=1
+
+# DALVIK
+dalvik.vm.lockprof.threshold=500
+
+# GRAPHICS
+# Set the display mode to automatic by default
+persist.sys.sf.color_saturation=1.0
+persist.sys.sf.native_mode=2
+
+# KEYSTORE
+ro.hardware.keystore=mdfpp
+
+# RIL
+ro.telephony.default_network=9,9
+vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+
+# SURFACEFLINGER
+debug.sf.latch_unsignaled=1
+
+# Enable wide gamut and color management
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.use_content_detection_for_refresh_rate=false
+
+# DEVELOPER SETTINGS
+# Disable invocation of oem_lock
+ro.frp.pst=/dev/block/persistent
